@@ -1,7 +1,12 @@
 {
-  "name": "test-comp-lib",
+  "name": "@randy-chung/test-comp-lib",
+  "packageManager": "yarn@3.2.3",
   "version": "0.1.0",
   "private": true,
+  "description": "React UI Component Library",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": "https://github.com/randy-chung/test-comp-lib.git",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -69,6 +74,7 @@
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
+    "auto": "^10.37.6",
     "babel-plugin-named-exports-order": "^0.0.2",
     "cross-env": "^7.0.3",
     "prop-types": "^15.8.1",
